@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b71c1f</color>
+    <color name="colorPrimaryDark">#ff4145</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWindow_background">#565656</color>
+
+    <color name="background_footer_item_grid_categorias">#90000000</color>
+
+    <color name="color_light">#ffffff</color>
+
+    <color name="background_header_seccion_inicio">#4B4B4B</color>
+
+    <color name="colorVerdura">#159611</color>
+    <color name="colorCarne">#da432c</color>
+    <color name="colorPescado">#267eea</color>
+    <color name="colorPostre">#d7b418</color>
+</resources>

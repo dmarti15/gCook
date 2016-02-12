@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">gCook</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_categorias">Recetas</string>
+    <string name="item_configuracion">Configuración</string>
+
+    <string name="titulo_comidas_populares">Lo más pedido</string>
+
+    <string name="titulo_tab_verduras">Verduras</string>
+    <string name="titulo_tab_carne">Carnes</string>
+    <string name="titulo_tab_pescado">Pescados</string>
+    <string name="titulo_tab_postres">Postres</string>
+
+    <string name="titulo_tab_perfil">Perfil</string>
+    <string name="titulo_tab_direcciones">Mis Recetas</string>
+    <string name="titulo_tab_tarjetas">Contactos</string>
+
+    <string name="texto_no_tarjetas">No has creado ninguna receta</string>
+
+    <string name="etiqueta_carrito">Carrito</string>
+
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_info_usuario">Información del usuario</string>
+</resources>
