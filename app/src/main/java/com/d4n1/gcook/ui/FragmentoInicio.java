@@ -1,5 +1,4 @@
-package layout;
-
+package com.d4n1.gcook.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,10 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.d4n1.gcook.ui.AdaptadorInicio;
 import com.d4n1.gcook.R;
 
-
+/**
+ * Fragmento para la sección de "Inicio"
+ */
 public class FragmentoInicio extends Fragment {
     private RecyclerView reciclador;
     private LinearLayoutManager layoutManager;

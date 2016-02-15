@@ -11,7 +11,7 @@
         android:scaleType="centerCrop" />
 
     <TextView
-        android:id="@+id/categoria_comida"
+        android:id="@+id/precio_comida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left|bottom"
