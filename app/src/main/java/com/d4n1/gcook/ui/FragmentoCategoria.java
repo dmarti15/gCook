@@ -44,13 +44,19 @@ public class FragmentoCategoria extends Fragment {
 
         switch (indiceSeccion) {
             case 0:
-                adaptador = new AdaptadorCategorias(Comida.PLATILLOS);
+                adaptador = new AdaptadorCategorias(Comida.PRIMEROS);
                 break;
             case 1:
-                adaptador = new AdaptadorCategorias(Comida.BEBIDAS);
+                adaptador = new AdaptadorCategorias(Comida.SEGUNDOS);
                 break;
             case 2:
+                adaptador = new AdaptadorCategorias(Comida.ENTRANTES);
+                break;
+            case 3:
                 adaptador = new AdaptadorCategorias(Comida.POSTRES);
+                break;
+            case 4:
+                adaptador = new AdaptadorCategorias(Comida.BEBIDAS);
                 break;
         }
 

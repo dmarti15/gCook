@@ -26,8 +26,8 @@ public class AdaptadorInicio
 
         public ViewHolder(View v) {
             super(v);
-            nombre = (TextView) v.findViewById(R.id.nombre_comida);
-            precio = (TextView) v.findViewById(R.id.precio_comida);
+            precio = (TextView) v.findViewById(R.id.nombre_comida);
+            nombre = (TextView) v.findViewById(R.id.precio_comida);
             imagen = (ImageView) v.findViewById(R.id.miniatura_comida);
         }
     }
@@ -56,7 +56,7 @@ public class AdaptadorInicio
                 .centerCrop()
                 .into(viewHolder.imagen);
         viewHolder.nombre.setText(item.getNombre());
-        viewHolder.precio.setText("$" + item.getPrecio());
+        viewHolder.precio.setText(item.getCategoria());
 
     }
 
